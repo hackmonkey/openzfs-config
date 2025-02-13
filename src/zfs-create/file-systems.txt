@@ -1,0 +1,4 @@
+encrypted
+encrypted/8k-lz4
+encrypted/128k-zstd
+encrypted/1024k-lz4

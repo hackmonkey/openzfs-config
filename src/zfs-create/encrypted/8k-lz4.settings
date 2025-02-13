@@ -1,0 +1,2 @@
+-o compression=lz4
+-o recordsize=8k

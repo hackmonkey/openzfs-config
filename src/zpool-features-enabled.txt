@@ -1,0 +1,16 @@
+-o feature@async_destroy=enabled
+-o feature@device_removal=enabled
+-o feature@edonr=enabled
+-o feature@empty_bpobj=enabled
+-o feature@extensible_dataset=enabled
+-o feature@hole_birth=enabled
+-o feature@large_blocks=enabled
+-o feature@large_dnode=enabled
+-o feature@livelist=enabled
+-o feature@log_spacemap=enabled
+-o feature@obsolete_counts=enabled
+-o feature@resilver_defer=enabled
+-o feature@spacemap_histogram=enabled
+-o feature@spacemap_v2=enabled
+-o feature@zpool_checkpoint=enabled
+-o feature@zstd_compress=enabled

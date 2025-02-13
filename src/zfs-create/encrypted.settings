@@ -1,0 +1,3 @@
+-o encryption=on
+-o keylocation=file:///dev/shm/openzfs.key
+-o keyformat=passphrase

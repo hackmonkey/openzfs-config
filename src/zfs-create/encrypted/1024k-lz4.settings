@@ -1,0 +1,3 @@
+-o compression=lz4
+-o primarycache=metadata
+-o recordsize=1m
