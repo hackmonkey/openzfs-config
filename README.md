@@ -323,8 +323,13 @@ tune away. YYMV.
 ### Deduplication (probably don't)
 
 This sounds cool, but I think it only helps in special cases. Out of curiosity, I ran
-this on my pool and it would not have benefitted me to use it, but it enabling it would
-require significant amounts of memory and impact performance.
+the command to simulate deduplication results on my pool, and it would not have
+benefited me to use it, but it enabling it would require significant amounts of memory
+and impact performance.
+
+```shell
+zdb --simulate-dedup {pool-name} 
+```
 
 ### RAID Levels (only if you care about your data)
 
