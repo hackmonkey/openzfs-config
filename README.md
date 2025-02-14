@@ -24,7 +24,7 @@ that doesn't work with the BSD-flavor of various commands.
 
 ## Usage
 
-Note: all paths are relative to the root of the repository, unless otherwise stated.
+Note: all paths are relative to the `src/` directory, unless otherwise stated.
 
 If you are new to ZFS, it might be worth reading up on it first:
 
@@ -96,7 +96,7 @@ by the `zpool-create.sh` script:
 0010-generate-features.sh
 ```
 
-This assumes it is being run from the root of this project, and that the
+This assumes it is being run from the `src/` directory, and that the
 `zpool-features.csv` file exists. It isn't very smart, so double check everything
 before running. Also, it will overwrite the contents of `zpool-features-enabled.txt`;
 don't edit this `.txt` file manually, or you will lose your changes.
